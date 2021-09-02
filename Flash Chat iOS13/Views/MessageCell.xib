@@ -21,11 +21,11 @@
                     <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="oUS-qS-kKQ">
                         <rect key="frame" x="10" y="10" width="363" height="59"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="YouAvatar" translatesAutoresizingMaskIntoConstraints="NO" id="vLr-Pa-R4y">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="YouAvatar" translatesAutoresizingMaskIntoConstraints="NO" id="aGg-PI-4vm">
                                 <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="5dT-KJ-Bor"/>
-                                    <constraint firstAttribute="width" constant="40" id="8Gq-yy-LhQ"/>
+                                    <constraint firstAttribute="height" constant="40" id="GfY-Ad-Wsa"/>
+                                    <constraint firstAttribute="width" constant="40" id="j6D-3w-ohv"/>
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sfd-bU-MdS">
@@ -46,11 +46,11 @@
                                     <constraint firstAttribute="bottom" secondItem="Bik-We-z6p" secondAttribute="bottom" constant="10" id="M62-FW-2qU"/>
                                 </constraints>
                             </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MeAvatar" translatesAutoresizingMaskIntoConstraints="NO" id="aGg-PI-4vm">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MeAvatar" translatesAutoresizingMaskIntoConstraints="NO" id="vLr-Pa-R4y">
                                 <rect key="frame" x="323" y="0.0" width="40" height="40"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="GfY-Ad-Wsa"/>
-                                    <constraint firstAttribute="width" constant="40" id="j6D-3w-ohv"/>
+                                    <constraint firstAttribute="height" constant="40" id="5dT-KJ-Bor"/>
+                                    <constraint firstAttribute="width" constant="40" id="8Gq-yy-LhQ"/>
                                 </constraints>
                             </imageView>
                         </subviews>
@@ -66,6 +66,7 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="label" destination="Bik-We-z6p" id="Cbo-sz-YtI"/>
+                <outlet property="leftImageView" destination="aGg-PI-4vm" id="3aT-8f-Nww"/>
                 <outlet property="messageBubble" destination="Sfd-bU-MdS" id="L9I-KN-mML"/>
                 <outlet property="rightImageView" destination="vLr-Pa-R4y" id="6Rl-9f-7Tv"/>
             </connections>
